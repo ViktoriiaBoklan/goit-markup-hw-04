@@ -49,6 +49,7 @@ img {
   width: 1200px;
   padding: 0 15px;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .section {
@@ -251,7 +252,7 @@ font-weight: 700;
 
 .features {
   padding-top: 94px;
-  padding-bottom: 94px;
+  /*padding-bottom: 94px;*/
 }
 
 .features-list {
@@ -315,9 +316,6 @@ font-weight: 700;
   width: 70px;
   height: 70px;
  }
-
- .about{
-  padding-bottom: 94px;}
 
 /*======END ABOUT======*/
 
@@ -564,7 +562,7 @@ fill: #2196F3;
   }
 .footer-social-list-link:hover .footer-social-list-icon,
 .footer-social-list-link:focus .footer-social-list-icon {
-    fill: var(--white-color)
+    fill: white
   }
 
 
@@ -572,15 +570,6 @@ fill: #2196F3;
 
 /*======PORTFOLIO======*/
 
-.logo {
-
-font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.192;
-letter-spacing: 0.03em;
-}
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
